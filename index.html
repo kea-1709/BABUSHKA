@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABUSHKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="popup">
+        <div id="popupindhold">
+            <button id="close">Close</button>
+            <h2 class="Titel" data-Titel>navn</h2>
+            <img class="" data-foto src="" alt="">
+            <details>
+                <summary>Se pris og beskrivelse</summary>
+                <div class="kortbeskrivelse" data-langbeskrivelse></div>
+                <div>
+                    <p></p><span class="pris1" data-pris1></span></div>
+            </details>
+        </div>
+
+    </div>
+    <header>
+
+
+        <div class="container-text">
+            <h1>BABUSHKA</h1>
+        </div>
+        <h2 id="over"></h2>
+    </header>
+    <nav>
+        <button id="filter-alle">Alle</button>
+        <button id="filter-forretter">Forretter</button>
+        <button id="filter-hovedretter">Hovedretter</button>
+        <button id="filter-desserter">Desserter</button>
+        <button id="filter-drikkevarer">Drikkevarer</button>
+        <button id="filter-sideorders">Sideorders</button>
+    </nav>
+    <section class="menu" data-menu></section>
+
+    <template class="menutemplate" data-menutemplate>
+
+        <article class="wrap">
+           <h2 class="Titel" data-Titel ></h2>
+            <img class="foto" data-foto src="" alt="">
+            <div class="kortbeskrivelse" data-kortbeskrivelse></div>
+            <div><p></p><span class="pris" data-pris ></span></div>
+        </article>
+
+
+
+
+        </template>
+    <div>
+        <footer>
+
+            <section><address>Addresse: <br> Grønnegade 97 1234 københavn K</address>
+                <aside>Åbningstider: <br> Mandag-fredag: 10:30 -22:00 lørdag 12:00-23:00</aside>
+            </section>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
